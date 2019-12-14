@@ -27,7 +27,7 @@
 - Series:一维数组&dict，可改，有index(可改，更像key)，多种类型
 - DataFrame: 多个数组组成，常用，处理可看cleaning data
 
-##basic function
+## basic function
 1. Function: def xx():
 程序读到return()语句,其后的语句不会再被执行,
 而print（）语句不同，其后的语句依然会被执行
