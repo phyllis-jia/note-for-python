@@ -21,7 +21,14 @@
 
 ## comparison of tuple, list, dict, set, series, DataFrame
 - Tuple:() (if you want a function to return multiple values, you can just return a tuple)(ordered)(can not change)
-- List:[] (delete:1.pop() --if none,delete the end,or delete index one; 2.remove('') add: 1.append():add in the end one by one; 2.extend():add a lot of data in the end; 3.insert(index, value))（有序）(list 可comprehensive, [[output expression] for iterator  variable in iterable if condition of iterator//  [[output expression] if-else for iterator variable in iterable] e.g. [(num1,num2) for num1 in range(1,3) for num2 in range(2,4)]
+- List:[] (ordered)
+
+ delete:1.pop() --if none,delete the end,or delete index one; 2.remove('')
+
+ add: 1.append():add in the end one by one; 2.extend():add a lot of data in the end; 3.insert(index, value)
+
+(list can be comprehensive, [[output expression] for iterator  variable in iterable if condition of iterator//  [[output expression] if-else for iterator variable in iterable] e.g. [(num1,num2) for num1 in range(1,3) for num2 in range(2,4)]
+
 - Dict: {} (key-value)(unordered) (dict() )
 - Set:()  like an unordered List (mainly use for extisting reasearch)(case sensitilve,add(),remove(),can use for)(unordered)
 - Series:one-dimensional array&dict, index(can change，like key)，multiple types
