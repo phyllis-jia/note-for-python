@@ -6,8 +6,8 @@
 - **T**rue==1 (r: **TRUE**)
 - Empty:{}  []     
 - Axis=1----row  axis=0---column
-- Index():位置
-- Count():数量
+- Index(): position
+- Count(): number
 - Range(start,stop,step) （don't include stop!!）
 -  ~：reverse
 
@@ -49,17 +49,23 @@ apply(func,*args,**kwargs)
 Dataframe: xxx.apply(func)
 
 **if there are many variables for function, it may lead errors. So use xxx.apply(function)**
+
 5. Enumerate(seq, start=n): (for all result using list() )
+
 6. Zip(): an iterator of tuples (*: unzip)
+
 7. Matrix: matrix = [[col for col in range(n)] for row in range(n)] 
+
 8. mean：xxx.mean()
 
-when exchange columns, df[a,b]=df[b,a] will lead error，to solve it using loc/iloc
+when exchange columns, df[a,b]=df[b,a] will lead error, to solve it using loc/iloc
 
-for boolean，when we want detailed value，use loc/iloc
+for boolean, when we want detailed value, use loc/iloc
 
 e.g Cars.loc['eu']
+
 9. loc & iloc
-- loc doesn't like python，it's like MATLAB's bilateral closed interval
+
+- loc doesn't like python, it's like MATLAB's bilateral closed interval
 - iloc like python
 
