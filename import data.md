@@ -8,6 +8,10 @@
 
               dataframe -- pandas 
 
+xxx=glob.glob(...)--- download all required file, e.g. '*.csv' 
+
+x: pd.read_csv(xxx[0])
+
 ### local flat file
 
 1. directly
