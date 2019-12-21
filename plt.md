@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 - plt.axes([left, bottom, width, height]) ---- parameter: 0-1(figure dimension) ---- use to identify different figures, or there may be many curves in one figure
 
-- plt.subplot(nrows, ncols, index, kwargs) ---- create subplot: divide screen into grib which has nrows, ncols, index is the position in grib
+- plt.subplot(nrows, ncols, index, kwargs) = fig.add_subplot(nrows ncols index)---- create subplot: divide screen into grib which has nrows, ncols, index is the position in grib
 
 - plt.tight_layout() --- examine axis label, scale label and title, partly adjust parameters, in order to let plot full in plot range
 
