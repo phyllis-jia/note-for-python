@@ -40,5 +40,13 @@ sort ---- O(nlogn)
 
 append ----- O(1)
 
+pop --- O(1)
+
+insert ---- O(n)
+
+in ---- O(n)
+
+find ---- O(n)
+
 
 
