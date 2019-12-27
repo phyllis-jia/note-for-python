@@ -19,7 +19,7 @@
 - To check whether include: .. In …
 - Keys():Return a new view of the dictionary’s keys
 
-## comparison of tuple, list, dict, set, series, DataFrame
+## comparison of tuple, list, array, dict, set, series, DataFrame
 - Tuple:() (if you want a function to return multiple values, you can just return a tuple)(ordered)(can not change)
 - List:[] (ordered)
 
@@ -29,6 +29,7 @@
 
 (list can be comprehensive, [[output expression] for iterator  variable in iterable if condition of iterator//  [[output expression] if-else for iterator variable in iterable] e.g. [(num1,num2) for num1 in range(1,3) for num2 in range(2,4)]
 
+- Array: np.array([same type data]) (fixed size) (index) (append, extend) (different dimension array)
 - Dict: {} (key-value)(unordered) (dict() )
 - Set:()  like an unordered List (mainly use for extisting reasearch)(case sensitilve,add(),remove(),can use for)(unordered)
 - Series:one-dimensional array&dict, index(can change，like key)，multiple types
