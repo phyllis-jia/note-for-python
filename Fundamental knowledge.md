@@ -51,6 +51,9 @@ The print () statement is different. Subsequent statements will still execute.
 - if
 - Elif
 - else
+
+(if not xxx ----xxx: zero, empty, False)
+
 4. Apply
 apply(func,*args,**kwargs)
 
