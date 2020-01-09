@@ -80,6 +80,14 @@ e.g Cars.loc['eu']
 - loc doesn't like python, it's like MATLAB's bilateral closed interval
 - iloc like python
 
+slice : [::n] = [start, stop, step]
+
 10. import time
 
 time.time(): returns the time as a floating point number expressed in seconds since the epoch, in UTC.
+
+11. matrix
+
+- [[a,b,c...],[x,y,z...]....]
+
+- [[x*y for x in xxx] for y in yy]
