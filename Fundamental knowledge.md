@@ -86,7 +86,9 @@ slice : [::n] = [start, stop, step]
 
 time.time(): returns the time as a floating point number expressed in seconds since the epoch, in UTC.
 
-11. matrix
+11.xx.join(xxx) --- e.g ''join(xxx) --- 'xxx'
+
+12. matrix
 
 - [[a,b,c...],[x,y,z...]....]
 
